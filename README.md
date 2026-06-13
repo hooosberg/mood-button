@@ -2,14 +2,14 @@
   <img src="icons/app-icon-180.png" alt="Mood Button app icon" width="128" height="128">
 </p>
 
-<h1 align="center">LocalMoodVoice / 心情按钮</h1>
+<h1 align="center">Mood Button / 心情按钮</h1>
 
 <p align="center">
   <strong>Speak once. Get a private mood diary.</strong>
   <br>
   Apple MLX + Qwen3 local AI - voice mood diary - iPhone
   <br>
-  <a href="https://hooosberg.github.io/LocalMoodVoice/">Official Website</a>
+  <a href="https://hooosberg.github.io/mood-button/">Official Website</a>
 </p>
 
 <p align="center">
@@ -20,12 +20,12 @@
 </p>
 
 <p align="center">
-  <a href="https://hooosberg.github.io/LocalMoodVoice/">
-    <img src="media/hamster-heart-home.jpg" alt="LocalMoodVoice hamster home screen" width="360">
+  <a href="https://hooosberg.github.io/mood-button/">
+    <img src="media/hamster-heart-home.jpg" alt="Mood Button hamster home screen" width="360">
   </a>
 </p>
 
-LocalMoodVoice is a small iPhone app for turning a short voice recording into a private mood diary. The core experience is intentionally simple: open the app, hold the mood button, speak naturally, and let the app organize the day into a readable journal entry with mood signals, context, and recall-friendly structure.
+Mood Button is a small iPhone app for turning a short voice recording into a private mood diary. The core experience is intentionally simple: open the app, hold the mood button, speak naturally, and let the app organize the day into a readable journal entry with mood signals, context, and recall-friendly structure.
 
 The app is built around a local-first AI pipeline. Apple Speech handles transcription, and the diary generation layer runs Qwen3 with Apple MLX on supported physical iPhone devices. The goal is not a social feed or a medical tool. It is a quiet personal notebook that helps you keep track of how a day felt.
 
@@ -51,15 +51,15 @@ The app is built around a local-first AI pipeline. Apple Speech handles transcri
 | Tracking | No third-party advertising tracker is used |
 | Paid feature | Optional home skins only; core diary features remain available |
 
-Full text: [Privacy Policy](https://hooosberg.github.io/LocalMoodVoice/privacy.html) · [Terms of Service](https://hooosberg.github.io/LocalMoodVoice/terms.html)
+Full text: [Privacy Policy](https://hooosberg.github.io/mood-button/privacy.html) · [Terms of Service](https://hooosberg.github.io/mood-button/terms.html)
 
 ## Public Links
 
-- Website: <https://hooosberg.github.io/LocalMoodVoice/>
-- Support: <https://hooosberg.github.io/LocalMoodVoice/support.html>
-- Privacy Policy: <https://hooosberg.github.io/LocalMoodVoice/privacy.html>
-- Terms of Service: <https://hooosberg.github.io/LocalMoodVoice/terms.html>
-- Repository: <https://github.com/hooosberg/LocalMoodVoice>
+- Website: <https://hooosberg.github.io/mood-button/>
+- Support: <https://hooosberg.github.io/mood-button/support.html>
+- Privacy Policy: <https://hooosberg.github.io/mood-button/privacy.html>
+- Terms of Service: <https://hooosberg.github.io/mood-button/terms.html>
+- Repository: <https://github.com/hooosberg/mood-button>
 
 ## Repository Layout
 
