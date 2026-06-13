@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — LocalMoodVoice</title>
+  <meta name="description" content="Privacy Policy for LocalMoodVoice, a private voice mood diary for iPhone.">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/app-icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/app-icon-180.png">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="./">
+        <img src="./icons/app-icon-64.png" alt="LocalMoodVoice">
+        <span>LocalMoodVoice<span>心情按钮</span></span>
+      </a>
+      <div class="nav-links">
+        <a class="keep-mobile" href="./support.html">Support</a>
+        <a class="keep-mobile" href="./terms.html">Terms</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="legal-page">
+    <a href="./">Back to home</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 13, 2026</p>
+
+    <h2>Short Version</h2>
+    <ul>
+      <li>LocalMoodVoice does not have accounts, ads, social feeds, or third-party analytics SDKs.</li>
+      <li>Your diary text, recordings, search terms, and skin preferences are stored in the app sandbox on your device.</li>
+      <li>Speech recognition uses Apple Speech. Depending on your device, language, and system settings, recognition may happen on device or through Apple's speech service.</li>
+      <li>Weather is optional. If Location permission is allowed and weather is requested, rounded coordinates are sent to Open-Meteo to fetch current weather.</li>
+      <li>Optional skin purchases are handled by Apple App Store / StoreKit. We do not see your Apple ID, payment method, or billing address.</li>
+    </ul>
+
+    <h2>Data Stored on Your Device</h2>
+    <table>
+      <tr><th>Item</th><th>Where it is stored</th><th>Purpose</th></tr>
+      <tr><td>Voice recordings</td><td>App sandbox</td><td>To create and review your diary entries.</td></tr>
+      <tr><td>Diary text and daily records</td><td>SwiftData local database</td><td>To show the journal, calendar, timeline, and search.</td></tr>
+      <tr><td>Search terms and small interaction signals</td><td>App sandbox / local database</td><td>To help you find entries again.</td></tr>
+      <tr><td>Language, skin, and unlock preferences</td><td>UserDefaults</td><td>To remember your settings.</td></tr>
+    </table>
+
+    <h2>Speech Recognition</h2>
+    <p>The app uses Apple's Speech Recognition framework to turn recordings into text. When on-device recognition is available, the app prefers it. If the system uses Apple's speech service, Apple's own privacy terms apply to that processing. LocalMoodVoice does not send your recordings or transcripts to the developer's server.</p>
+
+    <h2>Location and Weather</h2>
+    <p>Location permission is optional. When allowed, the app stores place names for diary context and does not store precise coordinates in diary entries. If weather is requested, the app sends rounded latitude and longitude to Open-Meteo's forecast API to receive a current temperature and weather code. The returned weather snapshot is stored locally with the diary entry.</p>
+
+    <h2>In-App Purchases</h2>
+    <p>LocalMoodVoice may offer a non-consumable one-time unlock for optional home skins. Purchases and restores are processed by Apple StoreKit. The app stores the local unlock state so premium skins remain available after purchase. We do not receive your Apple ID, payment method, or billing address.</p>
+
+    <h2>Third-Party SDKs</h2>
+    <p>The app does not include advertising SDKs, third-party analytics SDKs, social login SDKs, or third-party crash reporting SDKs. It uses Apple system frameworks and the Open-Meteo weather API only for optional weather context.</p>
+
+    <h2>Export and Deletion</h2>
+    <p>You can export diary text through the iOS share sheet when the app provides an export action. You can delete local records in the app. Uninstalling the app removes its local sandbox data from the device according to iOS behavior.</p>
+
+    <h2>Children</h2>
+    <p>LocalMoodVoice is not directed to children under 13. The app has no ads, no public profile, and no social features.</p>
+
+    <h2>Contact</h2>
+    <p>Questions can be sent to <a href="mailto:zikedece@proton.me">zikedece@proton.me</a> or opened through <a href="https://github.com/hooosberg/LocalMoodVoice/issues">GitHub Issues</a>.</p>
+
+    <p class="updated">This English policy is the controlling version. Translations may be provided later for convenience.</p>
+  </main>
+</body>
+</html>
