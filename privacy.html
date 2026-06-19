@@ -26,12 +26,13 @@
   <main class="legal-page">
     <a href="./">Back to home</a>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: June 13, 2026</p>
+    <p class="updated">Last updated: June 17, 2026</p>
 
     <h2>Short Version</h2>
     <ul>
       <li>Mood Button does not have accounts, ads, social feeds, or third-party analytics SDKs.</li>
       <li>Your diary text, recordings, search terms, and skin preferences are stored in the app sandbox on your device.</li>
+      <li>Mood Button does not send recordings, transcripts, diary text, mood labels, search terms, or location/weather data to any third-party AI service.</li>
       <li>Speech recognition uses Apple Speech. Depending on your device, language, and system settings, recognition may happen on device or through Apple's speech service.</li>
       <li>Weather is optional. If Location permission is allowed and weather is requested, rounded coordinates are sent to Open-Meteo to fetch current weather.</li>
       <li>Optional skin purchases are handled by Apple App Store / StoreKit. We do not see your Apple ID, payment method, or billing address.</li>
@@ -45,6 +46,9 @@
       <tr><td>Search terms and small interaction signals</td><td>App sandbox / local database</td><td>To help you find entries again.</td></tr>
       <tr><td>Language, skin, and unlock preferences</td><td>UserDefaults</td><td>To remember your settings.</td></tr>
     </table>
+
+    <h2>Local AI and Third-Party AI Services</h2>
+    <p>Mood Button bundles Qwen3 MLX model files inside the app and uses Apple MLX on supported iPhone devices for local diary shaping. The app does not call OpenAI, Anthropic, Gemini, ChatGPT, or any other hosted third-party AI API. No voice recordings, transcripts, diary text, mood labels, search terms, or location/weather data are sent to a third-party AI service.</p>
 
     <h2>Speech Recognition</h2>
     <p>The app uses Apple's Speech Recognition framework to turn recordings into text. When on-device recognition is available, the app prefers it. If the system uses Apple's speech service, Apple's own privacy terms apply to that processing. Mood Button does not send your recordings or transcripts to the developer's server.</p>
