@@ -9,7 +9,7 @@
   <br>
   Apple MLX + Qwen3 local AI - voice mood diary - iPhone
   <br>
-  <a href="https://hooosberg.github.io/mood-button/">Official Website</a>
+  <a href="https://hooosberg.com/en/apps/mood-button/">Official Website</a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://hooosberg.github.io/mood-button/">
+  <a href="https://hooosberg.com/en/apps/mood-button/">
     <img src="media/hamster-heart-home.jpg" alt="Mood Button hamster home screen" width="360">
   </a>
 </p>
@@ -51,14 +51,13 @@ The app is built around a local-first AI pipeline. Apple Speech handles transcri
 | Tracking | No third-party advertising tracker is used |
 | Paid feature | Optional home skins only; core diary features remain available |
 
-Full text: [Privacy Policy](https://hooosberg.github.io/mood-button/privacy.html) · [Terms of Service](https://hooosberg.github.io/mood-button/terms.html)
+Full text: [Privacy Policy](https://hooosberg.com/en/privacy/mood-button/) · [Terms of Service](https://hooosberg.com/en/terms/mood-button/)
 
 ## Public Links
 
-- Website: <https://hooosberg.github.io/mood-button/>
-- Support: <https://hooosberg.github.io/mood-button/support.html>
-- Privacy Policy: <https://hooosberg.github.io/mood-button/privacy.html>
-- Terms of Service: <https://hooosberg.github.io/mood-button/terms.html>
+- Website / Support: <https://hooosberg.com/en/apps/mood-button/>
+- Privacy Policy: <https://hooosberg.com/en/privacy/mood-button/>
+- Terms of Service: <https://hooosberg.com/en/terms/mood-button/>
 - Repository: <https://github.com/hooosberg/mood-button>
 
 ## Repository Layout

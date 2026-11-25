@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy — Mood Button</title>
   <meta name="description" content="Privacy Policy for Mood Button, a private voice mood diary for iPhone.">
+  <link rel="canonical" href="https://hooosberg.com/en/privacy/mood-button/">
   <link rel="stylesheet" href="./styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./icons/app-icon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./icons/app-icon-180.png">
@@ -26,7 +27,8 @@
   <main class="legal-page">
     <a href="./">Back to home</a>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: June 17, 2026</p>
+    <p class="updated">Last updated: June 22, 2026</p>
+    <p class="updated">Canonical policy URL: <a href="https://hooosberg.com/en/privacy/mood-button/">https://hooosberg.com/en/privacy/mood-button/</a></p>
 
     <h2>Short Version</h2>
     <ul>
@@ -49,6 +51,16 @@
 
     <h2>Local AI and Third-Party AI Services</h2>
     <p>Mood Button bundles Qwen3 MLX model files inside the app and uses Apple MLX on supported iPhone devices for local diary shaping. The app does not call OpenAI, Anthropic, Gemini, ChatGPT, or any other hosted third-party AI API. No voice recordings, transcripts, diary text, mood labels, search terms, or location/weather data are sent to a third-party AI service.</p>
+
+    <h2>Data Sharing Summary</h2>
+    <table>
+      <tr><th>Feature</th><th>Data involved</th><th>Leaves your device?</th><th>Third party</th></tr>
+      <tr><td>Voice diary recording</td><td>Voice recordings and diary text</td><td>No developer server upload</td><td>None</td></tr>
+      <tr><td>Local AI diary shaping</td><td>Transcripts, diary text, mood labels, keywords, search terms</td><td>No</td><td>No third-party AI service</td></tr>
+      <tr><td>Speech recognition</td><td>Audio needed for transcription</td><td>May be processed by Apple Speech depending on iOS support and settings</td><td>Apple system service</td></tr>
+      <tr><td>Optional weather</td><td>Rounded latitude and longitude for a weather lookup</td><td>Only after Location permission and only when weather is requested</td><td>Open-Meteo</td></tr>
+      <tr><td>Optional home skin purchase</td><td>Purchase entitlement and local unlock state</td><td>Purchase processing is handled by Apple</td><td>Apple App Store / StoreKit</td></tr>
+    </table>
 
     <h2>Speech Recognition</h2>
     <p>The app uses Apple's Speech Recognition framework to turn recordings into text. When on-device recognition is available, the app prefers it. If the system uses Apple's speech service, Apple's own privacy terms apply to that processing. Mood Button does not send your recordings or transcripts to the developer's server.</p>
